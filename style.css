@@ -1,39 +1,79 @@
-body {
-    font-family: "Comfortaa", sans-serif;
-}
-/* ============================================================================================
-                                    HEADER  
-   ============================================================================================                            
-*/
-
-header {
-    /* background-color: #f8f8f8; */
-    padding: 20px;
-    text-align: center;
-}
-header ul li {
-    /* display: inline; */
-    margin: 10px 15px;
-    font-size: 1.2em;
-}
-
-header ul li span {
-    text-align: left;
-    font-size: 2em;
-    color: #333;
-}
-
-header ul li a {
-   color: #000;
-}
-header ul li a span {
-    background-color: #0E8388;
-    color: #fff;
+html {
+    font-size: calc(15px + 0.390625vw);
+  }
+  
+  body {
+    font-family: Comfortaa;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  button {
+    font-family: Comfortaa;
+    background-color: #0e8388;
     border: none;
     border-radius: 10px;
-    font-size: 1em;
-    padding: 5px;
-}
+    color: white;
+    padding: 8px;
+    font-size: 1.1rem;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  section h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+  }
+  
+  section p {
+    color: #888888;
+    margin: 10px 0 10px 0;
+  }
+/* ============================================================================================
+                                FOOTER E HEADER   
+   ============================================================================================                            
+*/
+header {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin: 0 0 20vw 0;
+  }
+  footer {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    background: #cbe4de;
+  }
+  header h1,
+  footer span {
+    padding: 10px 0 10px 0;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  header ul li,
+  footer ul li {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  footer p {
+    color: #888;
+    margin: 30px 0 30px 0;
+    font-size: 1.2rem;
+  }
+  
+  footer ul li a {
+    padding: 10px 0 10px 0;
+    font-size: 1.2rem;
+    color: #888888;
+  }
 /* ============================================================================================
                                 ESPECIFICO - SEÇÕES  
    ============================================================================================                            
@@ -44,43 +84,73 @@ section.banner {
     padding: 10vh 0;
 }
 
-section.banner p { 
+section.banner p {
     color: #888888;
 }
 
-section.banner button { 
-    
-        background-color: #0E8388;
-        color: #fff;
-        border: none;
-        border-radius: 10px;
-        font-size: 1em;
-        padding: 1vh 10vw;
-        margin: 1vh 0;
+section.banner button {
+
+    background-color: #0E8388;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    padding: 1vh 10vw;
+    margin: 1vh 0;
 }
+
+/* ============================================================================================
+                                 PRODUTOS - SEÇÕES  
+   ============================================================================================                            
+*/
 
 section.ourproducts {
     text-align: center;
     background: #cbe4de;
     padding: 10px;
-  }
-  
-  section.ourproducts ul li {
+}
+
+section.ourproducts ul li {
     background: white;
     border-radius: 15px;
     margin: 25px;
     padding: 10px;
-  }
-  
-  section.ourproducts ul li h2 {
+}
+
+section.ourproducts ul li h2 {
     font-weight: bold;
     font-size: 1.2rem;
-  }
-  section.ourproducts ul li span {
+}
+
+section.ourproducts ul li span {
     background: #efefef;
     font-size: 2.5rem;
     padding: 15px;
     border-radius: 100%;
     margin: 10px;
     color: #888;
-  }
+}
+
+/* ============================================================================================
+                                 PRODUTOS - SEÇÕES  
+   ============================================================================================                            
+*/
+
+section.build {
+    text-align: center;
+    margin: 0 0 20vw 0;
+}
+
+section.build div {
+    margin: 5vw 0 0 0;
+}
+
+section.build div h2 {
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 0 0 10px;
+}
+
+section.build div p {
+    font-size: 1rem;
+}
