@@ -154,3 +154,64 @@ section.build div h2 {
 section.build div p {
     font-size: 1rem;
 }
+
+/* ============================================================================================
+                                Responsividade - PC  
+   ============================================================================================                            
+*/
+
+@media (min-width: 700px) {
+  
+  /* ================ Header ================  */
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+  }
+  header nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: right;
+  }
+  /* ================ Products ================  */
+  section.ourproducts ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+  }
+  section.ourproducts ul li {
+    width: 25%; 
+  }
+  
+  /* ================ Build ================  */
+  section.build {
+    margin: 0 0 10vw 0;
+    padding: 5vw; 
+
+  }
+  section.build > div {
+    display: flex;
+  }
+  section.build > div .texto {
+    padding: 5vw;
+  }
+   
+  /* ================ Footer ================  */
+
+  footer {
+    display: flex;
+    padding: 2vw;
+    justify-content: space-between;
+  }
+  footer ul {
+    display: flex;  
+  }
+  footer ul li {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: right;
+  }
+  
+
+    
+}
